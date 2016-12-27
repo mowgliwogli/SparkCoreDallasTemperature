@@ -19,7 +19,7 @@ DallasTemperature::DallasTemperature(OneWire* _oneWire)
     _wire = _oneWire;
     devices = 0;
     parasite = false;
-    bitResolution = 9;
+    bitResolution = 10;
     waitForConversion = true;
     checkForConversion = true;
 }
